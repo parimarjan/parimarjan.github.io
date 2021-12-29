@@ -1,4 +1,6 @@
-title: Parimarjan's thoughts.
-description: >-
-    Testing it out.
-permalink: /:title/
+#title: Parimarjan's blog.
+name: ""
+title: null
+
+#description:
+#permalink: /:title/
