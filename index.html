@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<p> Hello. I am a researcher doing things like <a href="./publications.html">this</a>.
+<p> Hello. I am a Phd student at MIT doing things like <a href="./publications.html">this</a>.
 <a href="">
 <!--Here </a> are some people on the internet that I like.-->
 
@@ -13,9 +13,9 @@ Posts.
 <ul>
   {% for post in site.posts %}
     <li>
-      {{ post.date | date: "%Y/%m"}} <a href="{{ post.url }}">{{
-        post.title }}</a>
-
+      <!--<dummy> {{ post.date | date: "%Y/%m" }}  &nbsp;    </dummy>-->
+      2020-14
+      <a href="{{ post.url }}"> {{ post.title }}</a>
     </li>
   {% endfor %}
 </ul>

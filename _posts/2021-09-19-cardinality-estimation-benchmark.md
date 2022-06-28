@@ -5,6 +5,9 @@ title: "Cardinality Estimation Benchmark"
 
 # Cardinality Estimation Benchmark
 
+<!--<iframe height="800" width="800" src="https://anim-demo.herokuapp.com"></iframe>-->
+<iframe height="800" width="800" src="https://bokeh-test2.herokuapp.com"></iframe>
+
 In this blogpost, we want to go over the motivations and applications of the [Cardinality Estimation Benchmark (CEB)](https://github.com/learnedsystems/ceb) which was a part of the VLDB 2021 [Flow-Loss paper](http://vldb.org/pvldb/vol14/p2019-negi.pdf).
 
 There has been a lot of interest in using ML for cardinality estimation. The motivating application is often query optimization: when searching for the best execution plan, a query optimizer needs to estimate intermediate result sizes. In the most simplified setting, a better query plan may need to process smaller sized intermediate results, thereby utilizing fewer resources, and executing faster. Several approaches have shown that one can consistently outperform DBMS estimators, often by orders of magnitude in terms of average estimation accuracy. However, improving estimation accuracy may not necessarily improve an optimizer's final query plan, as highlighted in the following simple example[^estimation_plan_quality].
