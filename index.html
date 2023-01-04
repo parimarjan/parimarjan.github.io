@@ -13,8 +13,8 @@ Posts.
 <ul>
   {% for post in site.posts %}
     <li>
-      <!--<dummy> {{ post.date | date: "%Y/%m" }}  &nbsp;    </dummy>-->
-      post.date
+      <dummy> {{ post.date | date: "%Y/%m" }}  &nbsp;    </dummy>
+      <!--2020-14-->
       <a href="{{ post.url }}"> {{ post.title }}</a>
     </li>
   {% endfor %}
