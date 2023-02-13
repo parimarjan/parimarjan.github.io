@@ -10,6 +10,8 @@ title: "Testing Iframes Post"
 
 # Iframes 2
 
-<!--Query-System-Logs-t7xlarge-gp3-d.html.-->
+All-Plans.
 
-<!--<iframe src="https://parimarjan.github.io/latency_collector/Query-System-Logs-t7xlarge-gp3-d.html" title="Test"></iframe>-->
+<div class="video-container">
+<iframe src="https://parimarjan.github.io/robust_cardinalities/AllPlans-Comparison-Bar.html" title="Test"></iframe>
+</div
