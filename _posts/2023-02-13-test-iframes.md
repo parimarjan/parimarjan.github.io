@@ -3,15 +3,33 @@ layout: post
 title: "Testing Iframes Post"
 ---
 
-# Iframes
+# Masked Query Features training
 
-<!--//<div class="video-container"><iframe.......></iframe></div>-->
-<div class="video-container"><iframe src="https://parimarjan.github.io/latency_collector/gp2-8a.html" title="Test"></iframe></div>
+<!--<iframe id="video" width="560" height="500" autoplay muted loop playsinline-->
+<!--src="/assets/robust_cardinalities/test-vid.mov"-->
+<!-->-->
+<!--</iframe>-->
 
-# Iframes 2
+# Masked Query GIF
+
+![MaskedQueryTraining](/assets/robust_cardinalities/test2.gif)
+
+# Plans
 
 All-Plans.
 
 <div class="video-container">
-<iframe src="https://parimarjan.github.io/robust_cardinalities/AllPlans-Comparison-Bar.html" title="Test"></iframe>
-</div
+<iframe src="/assets/robust_cardinalities/AllPlans-Comparison-Bar.html" title="Test"
+>
+</iframe>
+</div>
+
+
+<br/> <br/>
+<br/> <br/>
+<br/> <br/>
+<br/> <br/>
+<br/> <br/>
+<br/> <br/>
+
+# Iframes 3
