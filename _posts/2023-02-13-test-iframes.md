@@ -1,18 +1,14 @@
 ---
 layout: post
-title: "Testing Iframes Post"
+title: "Test"
 ---
 
 # Masked Query Features training
 
-<!--<iframe id="video" width="560" height="500" autoplay muted loop playsinline-->
-<!--src="/assets/robust_cardinalities/test-vid.mov"-->
-<!-->-->
-<!--</iframe>-->
 
 # Masked Query GIF
 
-![MaskedQueryTraining](/assets/robust_cardinalities/test2.gif)
+![MaskedQueryTraining](/assets/robust_cardinalities/query-masking.gif)
 
 # Plans
 
