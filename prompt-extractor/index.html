@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Snippet Extractor</title>
+    <style>
+        .highlight { color: red; font-weight: bold; } /* Style for highlighted text */
+    </style>
+</head>
+<body>
+    <h1>Prompt Extractor</h1>
+    <textarea id="inputText" rows="20" cols="70" placeholder="Paste your text here..." oninput="updateCharCount('input')"></textarea>
+    <p>Characters in Input: <span id="inputCharCount">0</span>, Tokens: <span id="inputTokenCount">0</span></p>
+    <input type="text" id="searchPhrase" placeholder="Enter search phrase">
+    <button onclick="extractSnippets()">Extract Snippets</button>
+    <h2>Extracted Prompt:</h2>
+    <textarea id="outputText" rows="20" cols="70" placeholder="Extracted snippets will appear here..." oninput="updateCharCount('output')"></textarea>
+		<p>Characters in Output: <span id="outputCharCount">0</span>, Tokens: <span id="outputTokenCount">0</span></p>
+    <h2>View Individual Matches:</h2>
+    <div id="matchView" contenteditable="true" style="height: 350px; border: 1px solid black; overflow-y: scroll; white-space: pre-wrap;"></div>
+    <button onclick="nextMatch()">Next Match</button>
+    <script src="script.js"></script>
+</body>
+</html>
+
